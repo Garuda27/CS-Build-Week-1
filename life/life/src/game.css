@@ -1,0 +1,21 @@
+.Board {
+    position: relative;
+    margin: 0 auto;
+    /* background-color: black; */
+    background-image: 
+        linear-gradient(#333 1px, transparent 1px), 
+        linear-gradient(90deg, #333 1px, trasparent 1px);
+}
+
+.settings {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    margin-left: 12px;
+    cursor: pointer;
+}
